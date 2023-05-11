@@ -42,8 +42,12 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveCharacter()
     {
-        myRigidbody.MovePosition(
-            transform.position + change * speed * Time.deltaTime
-            );
+        Vector2 targetVelocity = change.normalized * speed;
+        myRigidbody.velocity = Vector2.Lerp(myRigidbody.velocity, targetVelocity, 0.01f);
+
+        if (change == Vector3.zero && myRigidbody.velocity.magnitude < 0.1f)
+        {
+            myRigidbody.velocity = Vector2.zero;
+        }
     }
 }
