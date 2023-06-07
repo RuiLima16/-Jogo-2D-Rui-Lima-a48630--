@@ -17,30 +17,30 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 change;
     private Animator animator;
 
-    
-    
+
+
     void Start()
     {
         currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
-        
+
     }
 
-    
+
     void Update()
     {
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
-        if(Input.GetButtonDown("attack") && currentState != PlayerState.attack)
+        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack)
         {
             StartCoroutine(AttackCo());
         }
-        else if(currentState == PlayerState.walk)
-            {
-                UpdateAnimationAndMove();
-            }
+        else if (currentState == PlayerState.walk)
+        {
+            UpdateAnimationAndMove();
+        }
     }
 
     private IEnumerator AttackCo()
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("Attacking", false);
         yield return new WaitForSeconds(.33f);
         currentState = PlayerState.walk;
-        
+
     }
 
     void UpdateAnimationAndMove()
