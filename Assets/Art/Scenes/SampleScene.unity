@@ -135,6 +135,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -522599363
+      objectReference: {fileID: 0}
     - target: {fileID: 6954683433504429147, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
       propertyPath: m_Name
       value: pot (13)
@@ -379,6 +387,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -522599363
+      objectReference: {fileID: 0}
     - target: {fileID: 6954683433504429147, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
       propertyPath: m_Name
       value: pot (12)
@@ -8020,6 +8036,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -522599363
+      objectReference: {fileID: 0}
     - target: {fileID: 6954683433504429147, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
       propertyPath: m_Name
       value: pot (10)
@@ -8077,6 +8101,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -522599363
+      objectReference: {fileID: 0}
     - target: {fileID: 6954683433504429147, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
       propertyPath: m_Name
       value: pot (7)
@@ -23220,6 +23252,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -522599363
+      objectReference: {fileID: 0}
     - target: {fileID: 6954683433504429147, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
       propertyPath: m_Name
       value: pot (11)
@@ -23277,6 +23317,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -522599363
+      objectReference: {fileID: 0}
     - target: {fileID: 6954683433504429147, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
       propertyPath: m_Name
       value: pot (8)
@@ -23557,7 +23605,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   speed: 10
-  playerCharacter: {fileID: 0}
 --- !u!95 &1759516945
 Animator:
   serializedVersion: 5
@@ -23863,6 +23910,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6954683433504429145, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -522599363
+      objectReference: {fileID: 0}
     - target: {fileID: 6954683433504429147, guid: c07cbbb6a508d6648afc09f6d27030f4, type: 3}
       propertyPath: m_Name
       value: pot (9)
